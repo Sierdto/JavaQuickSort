@@ -1,3 +1,5 @@
+package nl.hva.ict.ss;
+
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -62,7 +64,6 @@ class QuickSort {
             sort(arr, pi + 1, high);
         }
     }
-	
     /* ----------------------------------------------------------------------------------------------------------
        List implementation
      */
@@ -151,4 +152,5 @@ class QuickSort {
             _sort(arr, pi + 1, high);
         }
     }
+
 }
